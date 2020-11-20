@@ -9,15 +9,17 @@ function App () {
     
     <DataContextProvider>
       
-      <div className='App'>    
         <div className="container">
           <div className="row">
-            <RegistrationFormNew />
-            <br></br>
-            <ShoData />
+            <div className="col-md-4"></div>
+            <div className="col-md-6">
+              <RegistrationFormNew />
+            </div>
+          <div className="col-mdd-3"></div>
           </div>
+          <br></br>
+          <ShoData />
         </div>
-      </div>
 
     </DataContextProvider>
     
