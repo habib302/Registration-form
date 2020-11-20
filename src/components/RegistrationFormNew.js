@@ -62,7 +62,7 @@ function RegistrationFormNew() {
   const onSubmit = (values, onSubmitProps) => {
     swal("Successfully Registered the Scheme.");
     dispatch({ type: 'ADD_DATA', data: {...values}});
-    onSubmitProps.setSubmitting(false);
+    // onSubmitProps.setSubmitting(false);
     onSubmitProps.resetForm();
   }
 
@@ -76,7 +76,7 @@ function RegistrationFormNew() {
       {formik => (
         <div className="container-flux">
           <div className="row">
-            <div className="col-lg-10">
+            <div className="col-lg-8">
               <Form>
                 <h1>Registration Form</h1>
                 
@@ -129,7 +129,7 @@ function RegistrationFormNew() {
                   name='prematureClosureCharge'
                 />
                 <br></br>
-                <Button type='submit' disabled={!formik.isValid} variant="primary" size="lg">Submit</Button>
+                <Button type='submit'  variant="primary" size="lg">Submit</Button>
                 <br></br>
                 <br></br>
                 <br></br>
