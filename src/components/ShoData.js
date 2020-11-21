@@ -63,7 +63,7 @@ return (
                 </TableRow>
                 </TableHead>
                 <TableBody>
-                {datas.length && datas.map((data) => (
+                {datas.map((data) => (
                     <StyledTableRow key={data.name}>
                         {/* <StyledTableCell component="th" scope="row">
                             ll>{row.name}
