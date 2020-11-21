@@ -71,7 +71,7 @@ return (
                         <StyledTableCell align="center">{data.schemeName}</StyledTableCell>
                         <StyledTableCell align="center">{moment(data.dateOfIntroduction).format('DD-MM-YYYY')}</StyledTableCell>
                         <StyledTableCell align="center">{data.schemeType}</StyledTableCell>
-                        <StyledTableCell align="center">{data.yearlyInterestRate}</StyledTableCell>
+                        <StyledTableCell align="left">{data.yearlyInterestRate}</StyledTableCell>
                         <StyledTableCell align="center">{data.irdaCode}</StyledTableCell>
                         <StyledTableCell align="center">{data.yearlyMinimumInvestment}</StyledTableCell>
                         <StyledTableCell align="center">{data.minimumTenureOfInvestment}</StyledTableCell>
