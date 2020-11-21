@@ -54,10 +54,10 @@ function RegistrationFormNew() {
   ]
   const dropdownOptions2 = [
     { key: 'Select tenure of investment', value: '' },
-    { key: 'One year', value: 'one' },
-    { key: 'Two year', value: 'two' },
-    { key: 'Three year', value: 'three' },
-    { key: 'Four year', value: 'four' }
+    { key: 'One year', value: 'One year' },
+    { key: 'Two year', value: 'Two year' },
+    { key: 'Three year', value: 'Three year' },
+    { key: 'Four year', value: 'Four year' }
   ]
   const onSubmit = (values, onSubmitProps) => {
     swal("Successfully Registered the Scheme.");
@@ -78,7 +78,7 @@ function RegistrationFormNew() {
           <div className="row">
             <div className="col-lg-8">
               <Form>
-                <h1>Registration Form</h1>
+                <h3>Scheme Registration Form</h3>
                 
                   <FormikControl
                     control='input'
