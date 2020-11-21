@@ -78,8 +78,8 @@ function RegistrationFormNew() {
           <div className="row">
             <div className="col-lg-8">
               <Form>
-                <h3>Scheme Registration Form</h3>
-                
+                <h3 class="text-primary">Scheme Registration Form</h3>
+                  <br></br>
                   <FormikControl
                     control='input'
                     type='text'

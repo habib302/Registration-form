@@ -13,6 +13,8 @@ function App () {
           <div className="row">
             <div className="col-md-4"></div>
             <div className="col-md-6">
+              <br></br>
+              <br></br>
               <RegistrationFormNew />
             </div>
           <div className="col-mdd-3"></div>
