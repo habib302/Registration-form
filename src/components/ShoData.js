@@ -70,13 +70,13 @@ return (
                         </StyledTableCell> */}
                         <StyledTableCell align="center">{data.schemeName}</StyledTableCell>
                         <StyledTableCell align="center">{moment(data.dateOfIntroduction).format('DD-MM-YYYY')}</StyledTableCell>
-                        <StyledTableCell align="center">{data.schemeType}</StyledTableCell>
+                        <StyledTableCell align="left">{data.schemeType}</StyledTableCell>
                         <StyledTableCell align="left">{data.yearlyInterestRate}</StyledTableCell>
                         <StyledTableCell align="center">{data.irdaCode}</StyledTableCell>
                         <StyledTableCell align="center">{data.yearlyMinimumInvestment}</StyledTableCell>
-                        <StyledTableCell align="center">{data.minimumTenureOfInvestment}</StyledTableCell>
-                        <StyledTableCell align="center">{data.prematureClosureCharge}</StyledTableCell>
-                        <StyledTableCell align="center">
+                        <StyledTableCell align="left">{data.minimumTenureOfInvestment}</StyledTableCell>
+                        <StyledTableCell align="left">{data.prematureClosureCharge}</StyledTableCell>
+                        <StyledTableCell align="left">
                             <button  onClick={() => dispatch({ type: 'REMOVE_DATA', id: data.id })} class="btn btn-outline-danger">Clear
                             </button>
                         </StyledTableCell>
