@@ -58,7 +58,7 @@ return (
                     <StyledTableCell>Yearly Minimum Investment</StyledTableCell>
                     <StyledTableCell>Minimum Tenure of Investment</StyledTableCell>
                     <StyledTableCell>Pre-mature Closure Charge</StyledTableCell>
-                    <StyledTableCell>Action</StyledTableCell>
+                    <StyledTableCell></StyledTableCell>
                     
                 </TableRow>
                 </TableHead>
