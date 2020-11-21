@@ -132,8 +132,6 @@ function RegistrationFormNew() {
                 <Button type='submit'  variant="primary" size="lg">Submit</Button>
                 <br></br>
                 <br></br>
-                <br></br>
-                <br></br>
               </Form>
             </div>
           </div>
