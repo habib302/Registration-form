@@ -4,14 +4,14 @@ import { DataContext } from '../context/dataContext';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import { useTable } from 'react-table'
 import Table from 'react-bootstrap/Table';
-import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
+// import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
 
 const ShoData = () => {
 const { datas,dispatch } = useContext(DataContext);
 return (
    
-    <div className="container-flux">
-        <Table striped bordered hover>
+    <div>
+        <Table striped bordered hover variant="dark">
             <thead>
                 <th>Scheme Name</th>
                 <th>Date of Introduction</th>
