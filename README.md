@@ -6,7 +6,8 @@ In the project directory, you can run:
 
 ### `Initial Screen`
 
-
+![Screenshot_4](https://user-images.githubusercontent.com/20669870/100837098-bfa80680-349a-11eb-9ad9-220b1c16e4cb.jpg)
+![Screenshot_5](https://user-images.githubusercontent.com/20669870/100837100-c0d93380-349a-11eb-9cfc-576ee56610f0.jpg)
 
 ### `yarn start`
 
