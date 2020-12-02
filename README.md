@@ -1,8 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Scheme Registration Form using Formik & Yup
 
-In the project directory, you can run:
+Project Feature
+
+1.	The form design is done by React-Bootstrap
+2.	For form validation I use formik & yup
+3.	To send the data from one component to another component, use context API
+4.	For table design I use Material UI 
 
 ### `Initial Screen`
 
