@@ -30,7 +30,7 @@ https://scheme-registation-form.netlify.app/
 
 ![Screenshot_9](https://user-images.githubusercontent.com/20669870/100837812-81f7ad80-349b-11eb-948b-89bef3959cfd.jpg)
 
-### `Individual row can de delete by Clear button`
+### `Individual row can delete by Clear button`
 ![Screenshot_10](https://user-images.githubusercontent.com/20669870/100838008-e1ee5400-349b-11eb-913d-5ca4604210a7.jpg)
 
 ### `yarn start`
